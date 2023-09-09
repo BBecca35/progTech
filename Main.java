@@ -1,6 +1,7 @@
 public class Main{
 	
 	public static void main(String[] arg){
-		System.out.println("Why?");
+		GreetingsGenerator generator = new GreetingsGenerator();
+		System.out.println(generator.generateGreetings("Uram"));
 	}
 }
